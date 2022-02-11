@@ -93,9 +93,9 @@ function updateFilters() {
 
     //forEach(will go through each key value pair and then filter the filteredData array if )
 
-    Object.entries(filters).forEach(([key, value]) => {
-      filteredData = filteredData.filter(i => i[key] === value)
-      console.log(key, value)
+    Object.entries(filters).forEach(([a, b]) => {
+      filteredData = filteredData.filter(i => i[a] === b)
+      console.log(a, b)
     });
 
   
